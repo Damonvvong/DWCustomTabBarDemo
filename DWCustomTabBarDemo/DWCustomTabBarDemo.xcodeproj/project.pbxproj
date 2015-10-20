@@ -15,6 +15,8 @@
 		E45656801BD5D076004A519D /* DWMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E456567F1BD5D076004A519D /* DWMineViewController.m */; settings = {ASSET_TAGS = (); }; };
 		E45656831BD5D08F004A519D /* DWSameFityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E45656821BD5D08F004A519D /* DWSameFityViewController.m */; settings = {ASSET_TAGS = (); }; };
 		E456568C1BD5D104004A519D /* DWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E456568A1BD5D104004A519D /* DWTabBarController.m */; settings = {ASSET_TAGS = (); }; };
+		E456568F1BD5D6AC004A519D /* DWTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E456568E1BD5D6AC004A519D /* DWTabBar.m */; settings = {ASSET_TAGS = (); }; };
+		E45656981BD5E373004A519D /* DWPublishButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E45656971BD5E373004A519D /* DWPublishButton.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		E45656821BD5D08F004A519D /* DWSameFityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWSameFityViewController.m; sourceTree = "<group>"; };
 		E45656891BD5D104004A519D /* DWTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWTabBarController.h; sourceTree = "<group>"; };
 		E456568A1BD5D104004A519D /* DWTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWTabBarController.m; sourceTree = "<group>"; };
+		E456568D1BD5D6AC004A519D /* DWTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWTabBar.h; sourceTree = "<group>"; };
+		E456568E1BD5D6AC004A519D /* DWTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWTabBar.m; sourceTree = "<group>"; };
+		E45656961BD5E373004A519D /* DWPublishButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWPublishButton.h; sourceTree = "<group>"; };
+		E45656971BD5E373004A519D /* DWPublishButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWPublishButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +194,10 @@
 		E456568B1BD5D104004A519D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E456568D1BD5D6AC004A519D /* DWTabBar.h */,
+				E456568E1BD5D6AC004A519D /* DWTabBar.m */,
+				E45656961BD5E373004A519D /* DWPublishButton.h */,
+				E45656971BD5E373004A519D /* DWPublishButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -326,6 +336,8 @@
 				E45656421BD5CC40004A519D /* AppDelegate.m in Sources */,
 				E45656831BD5D08F004A519D /* DWSameFityViewController.m in Sources */,
 				E456568C1BD5D104004A519D /* DWTabBarController.m in Sources */,
+				E45656981BD5E373004A519D /* DWPublishButton.m in Sources */,
+				E456568F1BD5D6AC004A519D /* DWTabBar.m in Sources */,
 				E45656801BD5D076004A519D /* DWMineViewController.m in Sources */,
 				E456563F1BD5CC40004A519D /* main.m in Sources */,
 				E456567D1BD5D05F004A519D /* DWMessageViewController.m in Sources */,
@@ -398,7 +410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -435,7 +447,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

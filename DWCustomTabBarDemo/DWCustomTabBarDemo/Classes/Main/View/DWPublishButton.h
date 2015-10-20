@@ -10,4 +10,6 @@
 
 @interface DWPublishButton : UIButton
 
++(instancetype)publishButton;
+
 @end
