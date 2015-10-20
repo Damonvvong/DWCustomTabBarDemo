@@ -6,7 +6,7 @@
 ### 写在最前面
 - 昨天在[这里](https://github.com/NoCodeNoWife/LLRiseTabBar-iOS)看到一种完全自定义的 TabBar，但是作者说缺陷是自己继承的是 UIButton，和系统的 UITabBarButton 有所区别。
 - 接着，[又在这里](https://github.com/lianleven/LLRiseTabBar-iOS)给出了一种直接利用系统自带的 tabBar 来实现。
-- 但是我发现两者都有一个共同的特点，就是利用到了一个占位控制器，个人感觉不是特别好。
+- ~~但是我发现两者都有一个共同的特点，就是利用到了一个占位控制器，个人感觉不是特别好。~~（一定是昨晚没睡好，原作者其实没有用占位控制器，之后后面那哥们搞了个占位控制器）
 - 所以献上自己写的一个小 Demo，供大家对比学习，如有不足，欢迎 issue，共同学习。
 
 
