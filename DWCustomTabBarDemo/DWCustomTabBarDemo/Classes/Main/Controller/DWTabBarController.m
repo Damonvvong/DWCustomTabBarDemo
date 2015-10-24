@@ -124,8 +124,9 @@
     viewController.view.backgroundColor     = DWRandomColor;
     viewController.tabBarItem.title         = title;
     viewController.tabBarItem.image         = [UIImage imageNamed:imageName];
-    viewController.tabBarItem.selectedImage = [UIImage imageNamed:selectedImageName];
-    
+    UIImage *image = [UIImage imageNamed:selectedImageName];
+    image = [image imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    viewController.tabBarItem.selectedImage = image;
     [self addChildViewController:viewController];
     
 }
