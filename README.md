@@ -1,5 +1,18 @@
-# DWCustomTabBarDemo
-自定义UITabBarController的 TabBar
+
+
+#进来的朋友点个星星呀~
+
+---
+# 2015-10-24
+- 有朋友私信我说用 Xcode6.4运行我程序有问题。
+
+> target specifies product type 'com.apple.product-type.bundle.ui-testing', but there's no such product type for the 'iphonesimulator' platform
+
+- 如果你也遇到如下问题，可以尝试stackoverflow上的[这个解答](http://stackoverflow.com/questions/31465852/target-specifies-product-type-com-apple-product-type-bundle-ui-testing-but-th)
+
+- 其实我本人还是建议装最新版的 Xcode 的。
+
+# 2015-10-20
 
 ----
 
