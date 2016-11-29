@@ -4,7 +4,7 @@
 
 
 
-![image](http://7xlv6p.com1.z0.glb.clouddn.com/DWTabBarController.gif)
+![image](http://ohe8u75p8.bkt.clouddn.com/DWTabBarController.gif)
 
 > 核心代码
 
